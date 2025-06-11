@@ -5,7 +5,7 @@
 
 An autonomous multi-agent system where specialized AI agents collaborate to solve complex coding tasks. Features a Planner agent that decomposes problems, an Executor agent that writes and tests code, and a Reviewer agent that ensures quality.
 
-![Agent Collaboration Diagram](https://via.placeholder.com/800x400?text=Agent+Collaboration+Diagram)
+![Agent Collaboration Diagram]
 
 ## Key Features
 
@@ -18,7 +18,8 @@ An autonomous multi-agent system where specialized AI agents collaborate to solv
 
 ## How It Works
 
-![image](https://github.com/user-attachments/assets/b059a466-0a59-4351-89ce-eb98d7c5bd86)
+![image](https://github.com/user-attachments/assets/780e6cd1-4083-4d00-91b3-70948d14f549)
+
 
 
 Planner Agent: Breaks down complex problems into executable subtasks
