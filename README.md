@@ -18,7 +18,9 @@ An autonomous multi-agent system where specialized AI agents collaborate to solv
 
 ## How It Works
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/b059a466-0a59-4351-89ce-eb98d7c5bd86)
+
+
 Planner Agent: Breaks down complex problems into executable subtasks
 
 Executor Agent: Generates and tests Python code for each subtask
@@ -27,37 +29,20 @@ Reviewer Agent: Analyzes code quality and identifies critical issues
 
 Orchestrator: Coordinates the workflow and compiles the final output
 
-Getting Started
-Prerequisites
+
+##Prerequisites
 Python 3.9+
-
 Google Gemini API key
-
 Basic Python development environment
 
-Installation
-
-# Clone the repository
-git clone https://github.com/yourusername/multi-agent-collaboration.git
-cd multi-agent-collaboration
-
-# Create and activate a virtual environment
-python -m venv venv
-source venv/bin/activate  # Linux/MacOS
-# venv\Scripts\activate  # Windows
-
-# Install dependencies
-pip install -r requirements.txt
-
-Configuration
+Configuration:
 Obtain a Google Gemini API key
+Set the key variable in the code.
 
-Set the environment variable in the code.
-
-Usage
+##Usage:
 Run the system with a project request:
-from orchestrator import Orchestrator
 
+from orchestrator import Orchestrator
 system = Orchestrator()
 response = system.execute_project("Build a REST API for user management")
 print(response)
