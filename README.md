@@ -5,7 +5,6 @@
 
 An autonomous multi-agent system where specialized AI agents collaborate to solve complex coding tasks. Features a Planner agent that decomposes problems, an Executor agent that writes and tests code, and a Reviewer agent that ensures quality.
 
-![Agent Collaboration Diagram]
 
 ## Key Features
 
@@ -31,7 +30,7 @@ Reviewer Agent: Analyzes code quality and identifies critical issues
 Orchestrator: Coordinates the workflow and compiles the final output
 
 
-##Prerequisites
+## Prerequisites
 Python 3.9+
 Google Gemini API key
 Basic Python development environment
@@ -40,7 +39,7 @@ Configuration:
 Obtain a Google Gemini API key
 Set the key variable in the code.
 
-##Usage:
+## Usage:
 Run the system with a project request:
 
 from orchestrator import Orchestrator
