@@ -32,18 +32,25 @@ Orchestrator: Coordinates the workflow and compiles the final output
 
 ## Prerequisites
 Python 3.9+
+
 Google Gemini API key
+
 Basic Python development environment
 
 Configuration:
+
 Obtain a Google Gemini API key
+
 Set the key variable in the code.
 
 ## Usage:
 Run the system with a project request:
 
 from orchestrator import Orchestrator
+
 system = Orchestrator()
+
 response = system.execute_project("Build a REST API for user management")
+
 print(response)
 
